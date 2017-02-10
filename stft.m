@@ -1,12 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%              Short-Time Fourier Transform            %
-%               with MATLAB Implementation             %
-%                                                      %
-% Author: M.Sc. Eng. Hristo Zhivomirov       12/21/13  %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 function [stft, f, t] = stft(x, wlen, h, nfft, fs)
-
 % function: [stft, f, t] = stft(x, wlen, h, nfft, fs)
 % x - signal in the time domain
 % wlen - length of the hamming window
@@ -16,6 +8,12 @@ function [stft, f, t] = stft(x, wlen, h, nfft, fs)
 % f - frequency vector, Hz
 % t - time vector, s
 % stft - STFT matrix (only unique points, time across columns, freq across rows)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%              Short-Time Fourier Transform            %
+%               with MATLAB Implementation             %
+%                                                      %
+% Author: M.Sc. Eng. Hristo Zhivomirov       12/21/13  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % represent x as column-vector if it is not
 if size(x, 2) > 1
