@@ -28,7 +28,6 @@ POSSIBILITY OF SUCH DAMAGE.
 
 # Example
 ```matlab
->>>>>>> 190b2cfb49b67b9d43e9739312df6ea680ccffca
 clear, clc, close all
 
 % load a .wav file
