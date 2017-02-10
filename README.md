@@ -27,7 +27,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
 # Example
-`
+```matlab
 clear, clc, close all
 
 % load a .wav file
@@ -74,4 +74,3 @@ title('Amplitude spectrogram of the signal')
 handl = colorbar;
 set(handl, 'FontName', 'Times New Roman', 'FontSize', 14)
 ylabel(handl, 'Magnitude, dB')
-`
